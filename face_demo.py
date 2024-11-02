@@ -60,3 +60,9 @@ while True:
 #closing
 video_capture.release()
 cv2.destroyAllWindows()
+
+info_to_store = [known_face_encodings, known_face_names]
+for i in range(len(known_face_encodings)):
+    print(known_face_names[i])
+    print(known_face_encodings[i])
+    
